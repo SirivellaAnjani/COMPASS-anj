@@ -1,7 +1,7 @@
 # COMPASS
 
 Official Implementation of
-**Unveiling User Preferences: A Knowledge Graph and LLM-Driven Approach for Conversational Recommendation**
+**Reasoning over User Preferences: Knowledge Graph‑Augmented LLMs for Explainable Conversational Recommendations**
 
 ![](assets/compass_framework.png)
 
