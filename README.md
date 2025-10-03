@@ -52,11 +52,12 @@ Then update the `config/default.yaml` file with the baseline model name and run 
 ## Citation
 
 ```bibtex
-@article{qiu2024unveiling,
-  title={Unveiling User Preferences: A Knowledge Graph and LLM-Driven Approach for Conversational Recommendation},
+@article{qiu2025reasoninguserpreferencesknowledge,
+  title={Reasoning over User Preferences: Knowledge Graph-Augmented LLMs for Explainable Conversational Recommendations},
   author={Qiu, Zhangchi and Luo, Linhao and Pan, Shirui and Liew, Alan Wee-Chung},
   journal={arXiv preprint arXiv:2411.14459},
-  year={2024},
+  url={https://arxiv.org/abs/2411.14459},
+  eprint={2411.14459}, 
+  year={2025},
 }
-
 ```
