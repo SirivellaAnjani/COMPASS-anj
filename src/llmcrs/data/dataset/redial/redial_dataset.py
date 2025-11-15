@@ -71,6 +71,11 @@ class RedialDataset(CRSDataset):
         train_data = self._load_raw_data(os.path.join(self.crs_path, "raw", "train_data.jsonl"))
         valid_data = self._load_raw_data(os.path.join(self.crs_path, "raw", "valid_data.jsonl"))
         test_data = self._load_raw_data(os.path.join(self.crs_path, "raw", "test_data.jsonl"))
+        
+        """reduce the dataset"""
+        train_data = train_data[:500]
+        valid_data = valid_data[:50]
+        test_data = test_data[:50]
         return train_data, valid_data, test_data
 
     def _preprocess(self):
