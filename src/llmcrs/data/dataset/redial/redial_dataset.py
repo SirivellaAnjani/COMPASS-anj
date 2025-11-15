@@ -76,6 +76,7 @@ class RedialDataset(CRSDataset):
         train_data = train_data[:500]
         valid_data = valid_data[:50]
         test_data = test_data[:50]
+        
         return train_data, valid_data, test_data
 
     def _preprocess(self):
